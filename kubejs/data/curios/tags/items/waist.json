@@ -1,0 +1,10 @@
+{
+  "replace": "false",
+  "values": [
+    "artifacts:cloud_in_a_bottle",
+    "artifacts:antidote_vessel",
+    "artifacts:crystal_heart",
+    "artifacts:universal_attractor",
+    "artifacts:obsidian_skull"
+  ]
+}
