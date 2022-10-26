@@ -1,30 +1,27 @@
 {
     "size": "large",
-    "color": "#e3a41e",
+    "color": "#4e099c",
     "leash_range": 1024,
     "waves": [{
             "entities": [{
-                    "entity": "takesapillage:skirmisher"
+                    "entity": "minecraft:skeleton"
                 },
                 {
-                    "entity": "takesapillage:skirmisher"
+                    "entity": "minecraft:skeleton"
                 },
                 {
-                    "entity": "minecraft:pillager"
+                    "entity": "quark:wraith"
                 },
 				{
-                    "entity": "minecraft:pillager"
+                    "entity": "quark:wraith"
                 },
                 {
-                    "entity": "hunterillager:hunterillager"
-                },
-                {
-                    "entity": "hunterillager:hunterillager"
+                    "entity": "undead_expansion:haunter"
                 }
             ],
             "rewards": [{
                 "type": "entity_loot",
-                "entity": "minecraft:pillager",
+                "entity": "minecraft:skeleton",
                 "rolls": 3
             }],
             "max_wave_time": 750,
@@ -32,22 +29,19 @@
         },
         {
             "entities": [{
-                    "entity": "minecraft:vindicator"
+                    "entity": "minecraft:wither_skeleton"
                 },
                 {
-                    "entity": "minecraft:pillager"
+                    "entity": "undead_expansion:revenant"
                 },
                 {
-                    "entity": "minecraft:pillager"
+                    "entity": "undead_expansion:revenant"
                 },
 				{
-                    "entity": "takesapillage:archer"
+                    "entity": "undead_expansion:haunter"
                 },
                 {
-                    "entity": "takesapillage:archer"
-                },
-                {
-                    "entity": "savage_and_ravage:griefer"
+                    "entity": "undead_expansion:haunter"
                 }
             ],
             "modifiers": [{
@@ -86,19 +80,22 @@
         },
         {
             "entities": [{
-                    "entity": "takesapillage:legioner"
+                    "entity": "minecraft:stray"
                 },
                 {
-                    "entity": "takesapillage:legioner"
+                    "entity": "minecraft:stray"
                 },
                 {
-                    "entity": "minecraft:vindicator"
+                    "entity": "minecraft:wither_skeleton"
                 },
 				{
-                    "entity": "minecraft:vindicator"
+                    "entity": "minecraft:wither_skeleton"
                 },
                 {
-                    "entity": "savage_and_ravage:executioner"
+                    "entity":"undead_expansion:demon"
+                },
+                {
+                    "entity":"alexsmobs:soul_vulture"
                 }
             ],
             "modifiers": [{
@@ -137,19 +134,28 @@
         },
         {
             "entities": [{
-                    "entity": "savage_and_ravage:iceologer"
+                    "entity": "undead_expansion:demon"
                 },
                 {
-                    "entity": "savage_and_ravage:iceologer"
+                    "entity": "undead_expansion:demon"
                 },
                 {
-                    "entity": "minecraft:witch"
+                    "entity": "bygonenether:wither_skeleton_knight"
                 },
 				{
-                    "entity": "minecraft:witch"
+                    "entity": "bygonenether:wither_skeleton_knight"
                 },
                 {
-                    "entity": "savage_and_ravage:trickster"
+                    "entity": "minecraft:stray"
+                },
+                {
+                    "entity": "minecraft:stray"
+                },
+                {
+                    "entity": "alexsmobs:soul_vulture"
+                },
+                {
+                    "entity": "alexsmobs:soul_vulture"
                 }
             ],
             "modifiers": [{
@@ -188,7 +194,7 @@
         },
         {
             "entities": [{
-                    "entity": "meetyourfight:dame_fortuna"
+                    "entity": "meetyourfight:bellringer"
                 }
             ],
             "modifiers": [{
@@ -204,7 +210,7 @@
             ],
             "rewards": [{
                 "type": "entity_loot",
-                "entity": "meetyourfight:dame_fortuna",
+                "entity": "meetyourfight:bellringer",
                 "rolls": 5
             }],
             "max_wave_time": 18000,

@@ -1,30 +1,27 @@
 {
     "size": "large",
-    "color": "#e3a41e",
+    "color": "#276e04",
     "leash_range": 1024,
     "waves": [{
             "entities": [{
-                    "entity": "takesapillage:skirmisher"
+                    "entity": "rottencreatures:undead_miner"
                 },
                 {
-                    "entity": "takesapillage:skirmisher"
+                    "entity": "rottencreatures:undead_miner"
                 },
                 {
-                    "entity": "minecraft:pillager"
+                    "entity": "minecraft:zombie"
                 },
 				{
-                    "entity": "minecraft:pillager"
+                    "entity": "minecraft:zombie"
                 },
                 {
-                    "entity": "hunterillager:hunterillager"
-                },
-                {
-                    "entity": "hunterillager:hunterillager"
+                    "entity": "minecraft:zombie"
                 }
             ],
             "rewards": [{
                 "type": "entity_loot",
-                "entity": "minecraft:pillager",
+                "entity": "minecraft:skeleton",
                 "rolls": 3
             }],
             "max_wave_time": 750,
@@ -32,22 +29,28 @@
         },
         {
             "entities": [{
-                    "entity": "minecraft:vindicator"
+                    "entity": "rottencreatures:swampy"
                 },
                 {
-                    "entity": "minecraft:pillager"
+                    "entity": "rottencreatures:swampy"
                 },
                 {
-                    "entity": "minecraft:pillager"
-                },
-				{
-                    "entity": "takesapillage:archer"
+                    "entity": "rottencreatures:swampy"
                 },
                 {
-                    "entity": "takesapillage:archer"
+                    "entity": "rottencreatures:swampy"
                 },
                 {
-                    "entity": "savage_and_ravage:griefer"
+                    "entity": "rottencreatures:swampy"
+                },
+                {
+                    "entity": "rottencreatures:swampy"
+                },
+                {
+                    "entity": "rottencreatures:swampy"
+                },
+                {
+                    "entity": "rottencreatures:swampy"
                 }
             ],
             "modifiers": [{
@@ -86,20 +89,20 @@
         },
         {
             "entities": [{
-                    "entity": "takesapillage:legioner"
+                    "entity": "undead_expansion:wandering_knight"
                 },
                 {
-                    "entity": "takesapillage:legioner"
+                    "entity": "undead_expansion:wandering_knight"
                 },
                 {
-                    "entity": "minecraft:vindicator"
-                },
-				{
-                    "entity": "minecraft:vindicator"
+                    "entity": "spawnerhead:spawner_head",
+                    "nbt": "{SpawnData:{entity:{id:'rottencreatures:swampy'}},spawner_entity_id:'rottencreatures:swampy',ArmorItems: [{},{},{},{id:'minecraft:spawner', tag: {Enchantments: [{id: 'minecraft:protection', lvl: 1s}]}, Count:1b}],SpawnRange: 4s, HandDropChances: [0.085f, 0.085f], ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.0f], MaxNearbyEntities: 6s,RequiredPlayerRange: 16s, SpawnCount: 4s}"
                 },
                 {
-                    "entity": "savage_and_ravage:executioner"
+                    "entity": "spawnerhead:spawner_head",
+                    "nbt": "{SpawnData:{entity:{id:'rottencreatures:swampy'}},spawner_entity_id:'rottencreatures:swampy',ArmorItems: [{},{},{},{id:'minecraft:spawner', tag: {Enchantments: [{id: 'minecraft:protection', lvl: 1s}]}, Count:1b}],SpawnRange: 4s, HandDropChances: [0.085f, 0.085f], ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.0f], MaxNearbyEntities: 6s,RequiredPlayerRange: 16s, SpawnCount: 4s}"
                 }
+				
             ],
             "modifiers": [{
                     "attribute": "generic.max_health",
@@ -137,19 +140,25 @@
         },
         {
             "entities": [{
-                    "entity": "savage_and_ravage:iceologer"
+                    "entity": "undead_expansion:wandering_knight_leader"
                 },
                 {
-                    "entity": "savage_and_ravage:iceologer"
+                    "entity": "undead_expansion:wandering_knight"
                 },
                 {
-                    "entity": "minecraft:witch"
-                },
-				{
-                    "entity": "minecraft:witch"
+                    "entity": "undead_expansion:wandering_knight"
                 },
                 {
-                    "entity": "savage_and_ravage:trickster"
+                    "entity": "undead_expansion:wandering_knight"
+                },
+                {
+                    "entity": "undead_expansion:wandering_knight"
+                },
+                {
+                    "entity": "undead_expansion:wandering_knight"
+                },
+                {
+                    "entity": "undead_expansion:wandering_knight"
                 }
             ],
             "modifiers": [{
@@ -188,7 +197,7 @@
         },
         {
             "entities": [{
-                    "entity": "meetyourfight:dame_fortuna"
+                    "entity": "meetyourfight:swampjaw"
                 }
             ],
             "modifiers": [{
@@ -204,7 +213,7 @@
             ],
             "rewards": [{
                 "type": "entity_loot",
-                "entity": "meetyourfight:dame_fortuna",
+                "entity": "meetyourfight:swampjaw",
                 "rolls": 5
             }],
             "max_wave_time": 18000,
